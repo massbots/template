@@ -1,7 +1,7 @@
 package ${PROJECT}
 
 import (
-	"${MODULE}/internal/database"
+	"${MODULE}/database"
 )
 
 type Bootstrap struct {

@@ -2,7 +2,7 @@ package bot
 
 import (
 	"${MODULE}"
-	"${MODULE}/internal/database"
+	"${MODULE}/database"
 
 	tele "gopkg.in/tucnak/telebot.v3"
 	"gopkg.in/tucnak/telebot.v3/layout"

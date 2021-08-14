@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"${MODULE}"
-	"${MODULE}/internal/bot"
-	"${MODULE}/internal/database"
+	"${MODULE}/bot"
+	"${MODULE}/database"
 )
 
 func main() {

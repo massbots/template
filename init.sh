@@ -49,6 +49,5 @@ done
 echo
 
 go mod tidy
-rm pkg/.gitkeep
 rm README.md
 rm init.sh
