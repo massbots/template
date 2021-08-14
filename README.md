@@ -14,7 +14,7 @@ Driver (github.com/lib/pq):
 
 ## Overview
 
-A basic [`telebot.v3`](https://github.com/tucnak/telebot/tree/v3) template is used for most of our bots. There are two ways of organizing the root, and this one sticks with [this project structure](https://github.com/golang-standards/project-layout). We prefer to use a simpler layout for simpler apps, without separating on `pkg` and `internal` directories, keeping every package in the root. But, in the huge projects, where we may have lots of packages as has to be hidden, as exposed, the separation becomes really useful and much more convenient.
+A basic [`telebot.v3`](https://github.com/tucnak/telebot/tree/v3) template is used for most of our bots. There are two ways of organizing the root, and this one sticks with [this project structure](https://github.com/golang-standards/project-layout). We prefer to use [a simpler layout](https://github.com/massbots/template/tree/alt) for simpler apps, without separating on `pkg` and `internal` directories, keeping every package in the root. But, in the huge projects, where we may have lots of packages as has to be hidden, as exposed, the separation becomes really useful and much more convenient.
 
 So, this is a good example of structuring your advanced bot, when there is too much code for an ordinary `main.go` file.
 
