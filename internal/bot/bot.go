@@ -41,7 +41,7 @@ func New(path string, boot ${PROJECT}.Bootstrap) (*Bot, error) {
 
 func (b *Bot) Start() {
 	// Middlewares
-	b.Use(middleware.DefaultLogger())
+	b.Use(middleware.Logger())
 	b.Use(middleware.AutoRespond())
 
 	// Handlers
