@@ -4,9 +4,9 @@ import (
 	"${MODULE}"
 	"${MODULE}/internal/database"
 
-	tele "gopkg.in/tucnak/telebot.v3"
-	"gopkg.in/tucnak/telebot.v3/layout"
-	"gopkg.in/tucnak/telebot.v3/middleware"
+	tele "gopkg.in/telebot.v3"
+	"gopkg.in/telebot.v3/layout"
+	"gopkg.in/telebot.v3/middleware"
 )
 
 type Bot struct {
